@@ -6,6 +6,7 @@ import { CarsbrandComponent } from './carsbrand/carsbrand.component';
 import { BusesbrandComponent } from './busesbrand/busesbrand.component';
 import { TrucksbrandComponent } from './trucksbrand/trucksbrand.component';
 import { DefencevehiclesComponent } from './defencevehicles/defencevehicles.component';
+import { UtilityvehiclesComponent } from './utilityvehicles/utilityvehicles.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DefencevehiclesComponent } from './defencevehicles/defencevehicles.comp
     CarsbrandComponent,
     BusesbrandComponent,
     TrucksbrandComponent,
-    DefencevehiclesComponent
+    DefencevehiclesComponent,
+    UtilityvehiclesComponent
   ],
   imports: [
     CommonModule,
